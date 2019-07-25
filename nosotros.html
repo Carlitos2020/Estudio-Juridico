@@ -31,6 +31,7 @@
  	<link rel="stylesheet" type="text/css" href="css/style.css">
  	<link rel="stylesheet" type="text/css" href="css/style2.css">
  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  	<style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
  </head>
 
@@ -171,95 +172,315 @@
 
 
  		<!-- NUESTROS ABOGADOS ------------------------------------------------------------------- -->
- 		<section class="section-md bg-gray-lighter text-center decor-text" data-content="Services">
+ 		
+
+ 		<section id="team" class="pb-5">
  			<div class="container">
- 				<h4 class="heading-decorated">Nuestro Equipo</h4>
- 			</div>
- 		</section>
-
- 		<section class="section-md bg-gray-lighter text-center decor-text  fondo" data-content="Services">
- 			<div class="container">
- 				<ul class="lista-abogados clearfix">
- 					<div class="row">
- 						<br>
- 						<br>
- 						<div class="col col-lg-4 col-md-6 col-sm-10"> 
- 							<li>
-
- 								<div class="contenedor-galeria">
- 									<a class="abogado-info" href="#">
- 										<img  class="galeria-img  isotope-item" src="imagenes/abogado3.jpg" alt="Imagen abogado 1"> 
- 										<p>Hoces Huerta G. Fernando</p>
- 									</a>
+ 				<div class="row">
+ 					<!-- Team member -->
+ 					<div class="col-xs-12 col-sm-6 col-md-4">
+ 						<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+ 							<div class="mainflip">
+ 								<div class="frontside">
+ 									<div class="card">
+ 										<div class="card-body text-center">
+ 											<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.</p>
+ 											<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+ 										</div>
+ 									</div>
  								</div>
-
-
- 							</li>
- 						</div>
- 						<div class="col col-lg-4 col-md-6 col-sm-10"> 
- 							<li>
-
- 								<div class="contenedor-galeria">
- 									<a class="abogado-info" href="#">
- 										<img  class="galeria-img  isotope-item" src="imagenes/abogado2.jpg" alt="Imagen abogado 1"> 
- 										<p>Hoces Huerta G. Fernando</p>
- 									</a>
+ 								<div class="backside">
+ 									<div class="card">
+ 										<div class="card-body text-center mt-4">
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+ 											<ul class="list-inline">
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-facebook"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-twitter"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-skype"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-google"></i>
+ 													</a>
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</div>
  								</div>
-
- 							</li> 
- 						</div>
- 						<div class="col col-lg-4 col-md-6 col-sm-10"> 
- 							<li>
-
- 								<div class="contenedor-galeria">
- 									<a class="abogado-info" href="#">
- 										<img  class="galeria-img  isotope-item" src="imagenes/abogado1.jpg" alt="Imagen abogado 1"> 
- 										<p>Valdez Arrospide Hernan</p>
- 									</a>
- 								</div>
-
- 							</li>
- 						</div>
- 						<div class="col col-lg-4 col-md-6 col-sm-10"> 
- 							<li>
-
- 								<div class="contenedor-galeria">
- 									<a class="abogado-info" href="#">
- 										<img  class="galeria-img isotope-item" src="imagenes/abogado1.jpg" alt="Imagen abogado 1"> 
- 										<p>Valdez Arrospide Hernan</p>
- 									</a>
- 								</div>
-
- 							</li>
- 						</div>
- 						<div class="col col-lg-4 col-md-6 col-sm-10"> 
- 							<li>
-
- 								<div class="contenedor-galeria">
- 									<a class="abogado-info" href="#">
- 										<img  class="galeria-img  isotope-item" src="imagenes/abogado2.jpg" alt="Imagen abogado 1"> 
- 										<p>Cortez Machado Carlos A.</p>
- 									</a>
- 								</div>
-
-
- 							</li>
+ 							</div>
  						</div>
  					</div>
- 				</ul>
- 				
+ 					<!-- ./Team member -->
+ 					<!-- Team member -->
+ 					<div class="col-xs-12 col-sm-6 col-md-4">
+ 						<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+ 							<div class="mainflip">
+ 								<div class="frontside">
+ 									<div class="card">
+ 										<div class="card-body text-center">
+ 											<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.</p>
+ 											<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 								<div class="backside">
+ 									<div class="card">
+ 										<div class="card-body text-center mt-4">
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+ 											<ul class="list-inline">
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-facebook"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-twitter"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-skype"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-google"></i>
+ 													</a>
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- ./Team member -->
+ 					<!-- Team member -->
+ 					<div class="col-xs-12 col-sm-6 col-md-4">
+ 						<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+ 							<div class="mainflip">
+ 								<div class="frontside">
+ 									<div class="card">
+ 										<div class="card-body text-center">
+ 											<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.</p>
+ 											<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 								<div class="backside">
+ 									<div class="card">
+ 										<div class="card-body text-center mt-4">
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+ 											<ul class="list-inline">
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-facebook"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-twitter"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-skype"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-google"></i>
+ 													</a>
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- ./Team member -->
+ 					<!-- Team member -->
+ 					<div class="col-xs-12 col-sm-6 col-md-4">
+ 						<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+ 							<div class="mainflip">
+ 								<div class="frontside">
+ 									<div class="card">
+ 										<div class="card-body text-center">
+ 											<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_04.jpg" alt="card image"></p>
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.</p>
+ 											<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 								<div class="backside">
+ 									<div class="card">
+ 										<div class="card-body text-center mt-4">
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+ 											<ul class="list-inline">
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-facebook"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-twitter"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-skype"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-google"></i>
+ 													</a>
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- ./Team member -->
+ 					<!-- Team member -->
+ 					<div class="col-xs-12 col-sm-6 col-md-4">
+ 						<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+ 							<div class="mainflip">
+ 								<div class="frontside">
+ 									<div class="card">
+ 										<div class="card-body text-center">
+ 											<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_05.png" alt="card image"></p>
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.</p>
+ 											<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 								<div class="backside">
+ 									<div class="card">
+ 										<div class="card-body text-center mt-4">
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+ 											<ul class="list-inline">
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-facebook"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-twitter"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-skype"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-google"></i>
+ 													</a>
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- ./Team member -->
+ 					<!-- Team member -->
+ 					<div class="col-xs-12 col-sm-6 col-md-4">
+ 						<div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+ 							<div class="mainflip">
+ 								<div class="frontside">
+ 									<div class="card">
+ 										<div class="card-body text-center">
+ 											<p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_06.jpg" alt="card image"></p>
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.</p>
+ 											<a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 								<div class="backside">
+ 									<div class="card">
+ 										<div class="card-body text-center mt-4">
+ 											<h4 class="card-title">Abogado</h4>
+ 											<p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+ 											<ul class="list-inline">
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-facebook"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-twitter"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-skype"></i>
+ 													</a>
+ 												</li>
+ 												<li class="list-inline-item">
+ 													<a class="social-icon text-xs-center" target="_blank" href="#">
+ 														<i class="fa fa-google"></i>
+ 													</a>
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!-- ./Team member -->
 
+ 				</div>
  			</div>
  		</section>
 
  		<!-- fin mostrar abogados------------------------------------------------------------------- -->
 
- 		<!-- OFICINA -------------------------------------------------------------------------------->
+
+
+
+ 		<!--Nuestra  OFICINA -------------------------------------------------------------------------------->
 
 
  		<section class="section-md bg-gray-lighter text-center decor-text  " data-content="Services">
  			<div class="container">
- 				<h4 class="heading-decorated">Nuestro Oficina</h4>
+ 				<h4 class="heading-decorated">Nuestra Oficina</h4>
  			</div>
  			<div id="oficina" class="oficina">
  				<div class="container">
@@ -281,7 +502,7 @@
 
  		<!-- fin oficina ----------------------------------------------------------------->
 
-
+ 
 
 
  		<!-- FOOTER --------------------------------------------------------------------------- -->
@@ -301,6 +522,10 @@
  		<!-- fin footer ------------------------------------------------------------------------- -->
 
  	</div>
+
+
+ 	
+
  	<!-- Javascript-->
  	<script src="js/core.min.js"></script>
  	<script src="js/script.js"></script>
