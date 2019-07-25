@@ -32,6 +32,9 @@
  	<link rel="stylesheet" type="text/css" href="css/style.css">
  	<link rel="stylesheet" type="text/css" href="css/style2.css">
  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	
  	<style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
  </head>
 
@@ -165,164 +168,180 @@
 
  		</section>
  		<!-- FIN QUIETA -->
+
+
  		
 
- 		<!-- SERVICES  ------------------------------------------------------------------>
- 		<section class="section-md text-center bg-default " >
- 			<div class="bg-decor d-flex align-items-center justify-content-end" data-parallax-scroll="{&quot;y&quot;: 130, &quot;smoothness&quot;: 30}"><img src="imagenes/movimiento/bg-decor-4.png" alt=""/>
+ 		<!-- servicion collapsable -->
+
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-12">
+ 					<div class="section-title text-center wow zoomIn">
+ 						imagen
+ 					</div>
+ 				</div>
  			</div>
- 			<div class="container">
- 				<h4 class="heading-decorated">SERvicios</h4>
+ 			<div class="row">				
+ 				<div class="col-md-12">
+ 					<div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
 
- 				<div id="services" class="services">
- 					<!--  -->
-
-
- 					<div id="list-example" class="list-group">
- 						<div class="row">
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="0.6s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-1">Derecho Civil</a>
+ 						<div class="panel panel-default">
+ 							<div class="panel-heading" role="tab" id="headingOne">
+ 								<h4 class="panel-title">
+ 									<a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+ 										Derecho Civil
+ 									</a>
+ 								</h4>
  							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="1s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-2">Derecho Penal</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="1.4s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-3">Derecho laboral</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="1.8s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-4">Derecho de familia</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="2.2s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-5">Derecho Civil</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="2.6s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-6">HErencia</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="3s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-7">Arrendamiento</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="3.4s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-8">Divorcios</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="3.8s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-9">Deudas</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="4.2s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-10">testamentos</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="4.6s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-11">Indemnizaciones</a>
- 							</div>
- 							<div class="col-lg-3 col-md-3 wow animated  fadeInLeft" data-wow-delay="5.2s">
- 								<a class="list-group-item list-group-item-action" href="#list-item-12">Accidentes y lesiones</a>
+ 							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+ 								<div class="panel-body">
+ 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+ 								</div>
  							</div>
  						</div>
+
+ 						<!--  -->
+ 						<div class="panel panel-default">
+ 							<div class="panel-heading" role="tab" id="headingTwo">
+ 								<h4 class="panel-title">
+ 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+ 										Jurisdicción Civil 
+ 									</a>
+ 								</h4>
+ 							</div>
+ 							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+ 								<div class="panel-body">
+ 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<!--  -->
+
+ 						<div class="panel panel-default">
+ 							<div class="panel-heading" role="tab" id="headingTwo">
+ 								<h4 class="panel-title">
+ 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+ 										Jurisdicción Social y Laboral
+ 									</a>
+ 								</h4>
+ 							</div>
+ 							<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+ 								<div class="panel-body">
+ 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<!--  -->
+
+ 						<div class="panel panel-default">
+ 							<div class="panel-heading" role="tab" id="headingTwo">
+ 								<h4 class="panel-title">
+ 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+ 										Jurisdicción Penal
+ 									</a>
+ 								</h4>
+ 							</div>
+ 							<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+ 								<div class="panel-body">
+ 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<!--  -->
+
+ 						<div class="panel panel-default">
+ 							<div class="panel-heading" role="tab" id="headingTwo">
+ 								<h4 class="panel-title">
+ 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+ 										Derecho Administrativo y Jurisdicción Contencioso-Administrativa
+ 									</a>
+ 								</h4>
+ 							</div>
+ 							<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+ 								<div class="panel-body">
+ 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<!--  -->
+
+ 						<div class="panel panel-default">
+ 							<div class="panel-heading" role="tab" id="headingTwo">
+ 								<h4 class="panel-title">
+ 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+ 										Derecho Mercantil 
+ 									</a>
+ 								</h4>
+ 							</div>
+ 							<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+ 								<div class="panel-body">
+ 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<!--  -->
+
+ 						<div class="panel panel-default">
+ 							<div class="panel-heading" role="tab" id="headingTwo">
+ 								<h4 class="panel-title">
+ 									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+ 										Jurisdicción Voluntaria
+ 									</a>
+ 								</h4>
+ 							</div>
+ 							<div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+ 								<div class="panel-body">
+ 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nisl lorem, dictum id pellentesque at, vestibulum ut arcu. Curabitur erat libero, egestas eu tincidunt ac, rutrum ac justo. Vivamus condimentum laoreet lectus, blandit posuere tortor aliquam vitae. Curabitur molestie eros. </p>
+ 								</div>
+ 							</div>
+ 						</div>
+
 
  					</div>
- 					<!--  -->
- 				</div>
-
- 				<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-
- 					<h4 id="list-item-1"></h4>
- 					<!-- ------------------------------------------------------------------------------------ -->
-
- 					<section class="section-md bg-gray-lighter text-center decor-text" data-content="Process">
- 						<div class="container">
- 							<h4 class="heading-decorated">Derecho civil</h4>
- 							<div class="row  justify-content-center">
- 								<div class="col-sm-10 col-lg-6"><img src="imagenes/fondo1.jpg" alt="" width="650" height="495"/>
- 								</div>
- 								<div class="col col-sm-10 col-lg-6">
-
- 									<!-- -->
-
- 									<!-- Blurb circle-->
- 									<article class="blurb blurb-circle">
- 										<div class="unit flex-row unit-spacing-md">
- 											<div class="unit-left">
- 												<div class="blurb-circle__icon"><span class="icon linear-icon-bag2"></span></div>
- 											</div>
- 											<div class="unit-body">
- 												<p class="blurb__title heading-6">Testing</p>
- 												<p>Finally, our QA experts make sure that everything works perfectly just as you would expect.</p>
- 											</div>
- 										</div>
- 									</article>
-
- 									<!-- -->
- 									<!-- Blurb circle-->
- 									<article class="blurb blurb-circle">
- 										<div class="unit flex-row unit-spacing-md">
- 											<div class="unit-left">
- 												<div class="blurb-circle__icon"><span class="icon linear-icon-bag2"></span></div>
- 											</div>
- 											<div class="unit-body">
- 												<p class="blurb__title heading-6">Testing</p>
- 												<p>Finally, our QA experts make sure that everything works perfectly just as you would expect.</p>
- 											</div>
- 										</div>
- 									</article>
-
- 									<!-- -->
+ 				</div><!--- END COL -->		
+ 			</div><!--- END ROW -->			
+ 		</div>
+ 		
+ 		<!-- fin de servicios collapsable -->
 
 
- 								</div>
- 							</div>
- 						</div>
- 					</section>
+ 		<!-- contactenos -->
 
- 					<!-- ------------------------------------------------------------------------------------ -->
+
+ 		<section class="section-md bg-default decor-text" data-content="Contact" style="background-color: rgba(0,0,0,0.2); ">
+ 			<div class="container">
+ 				<h5 class="heading-decorated">¿ Alguna consulta ?</h5>
+ 				<h6>No dude en hacerla</h6>
+
+
+ 				<form class="form-shadow" method="post" action="#">
  					
+ 					<div class="form-wrap form-wrap_icon linear-icon-man ocultar">
 
-
- 					<h4 id="list-item-2">Derecho Penal</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-3">Derecho laboral </h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-4">Derecho de familia</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-5">Derecho Civil</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-6">HErencia</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-7">Arrendamiento</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-8">Divorcios</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-9">Deudas</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-10">testamentos</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-11">Indemnizaciones </h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
- 					<h4 id="list-item-12">Accidentes y lesiones</h4>
- 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-
-
+ 						<input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+ 						<label class="form-label" for="contact-name">
+ 							<i class="fa fa-user" aria-hidden="true"></i>   Tú nombre</label>
+ 						</div>
+ 						<div class="form-wrap form-wrap_icon linear-icon-envelope">
+ 							<input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+ 							<label class="form-label" for="contact-email">
+ 								<i class="fa fa-envelope" aria-hidden="true"></i>  Tú e-mail</label>
+ 							</div>
+ 							<div class="form-wrap form-wrap_icon linear-icon-feather">
+ 								<textarea class="form-input" id="contact-message" name="message" data-constraints="@Required"></textarea>
+ 								<label class="form-label" for="contact-message">
+ 									<i class="fa fa-commenting" aria-hidden="true"></i>   Tú mensage</label>
+ 								</div>
+ 								<button class="button button-primary button-shadow" type="submit">ENviar</button>
+ 							</form>
+ 						</div>
+ 					</div>
  				</div>
-
  			</div>
+ 			
  		</section>
- 		<!-- fin de servicios --------------------------------------------------------> 
-
-
-
-
-
-
-
+ 		<!-- fin contactenos -->
 
 
 
@@ -341,11 +360,18 @@
  			</div>
  		</footer>
  		<!-- fin footer ------------------------------------------------------------------------- -->
- 		
+
  	</div>
+
+
+
+
  	<!-- Javascript-->
+ 	
  	<script src="js/core.min.js"></script>
  	<script src="js/script.js"></script>
+ 	
+ 	<script src="js/acordeon.js"></script>
  	<!--  -->
  	<script src="js/wow.js"></script>
  	<script>
